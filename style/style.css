@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: url("../img/home\ alternative\ image.jpg");
+  background-size: cover;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,8 +47,8 @@ nav .container {
   width: 40%;
 }
 
-.nav__links:hover {
-  opacity: 0.9;
+.nav__links a:hover {
+  opacity: 0.8;
 }
 
 .nav__links a {
@@ -67,7 +72,8 @@ section {
 
 /* Home Section CSS */
 .home__section {
-  background-image: url("../img/bg-img-1.jpeg");
+  background-image: url("../img/home\ alternative\ image.jpg");
+  background-size: cover;
   height: 800px;
   background-attachment: fixed;
   display: flex;
@@ -131,7 +137,8 @@ section {
 
 /* Resume Section CSS */
 .resume__section {
-  background-image: url("../img/bg-img-2.jpeg");
+  background-image: url("../img/home\ alternative\ image.jpg");
+  background-size: cover;
   background-attachment: fixed;
   height: 900px;
 }
@@ -157,12 +164,12 @@ section {
 
 /* Contact Section CSS */
 .contact__section {
-  background-image: url("../img/bubble\ image.jpg");
+  background-image: url("../img/contact\ image.jpg");
   overflow: hidden;
-  height: 800px;
+  height: 1100px;
 }
 
 .contact__section h1 {
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(65, 51, 51);
 }
