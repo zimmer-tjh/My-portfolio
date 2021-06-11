@@ -1,0 +1,168 @@
+/* General App CSS */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Navigation Bar CSS */
+nav .container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(15, 14, 14);
+  min-height: 8vh;
+  position: fixed;
+  top: 0;
+}
+
+.nav__logo {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav__links:hover {
+  opacity: 0.9;
+}
+
+.nav__links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav__links li {
+  list-style-type: none;
+}
+
+/* General Section CSS */
+section {
+  padding: 90px 32px;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+/* Home Section CSS */
+.home__section {
+  background-image: url("../img/bg-img-1.jpeg");
+  height: 800px;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.home__section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__header h1 {
+  font-size: 90px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.home__icons {
+  font-size: 50px;
+}
+
+/* Social Media Icons CSS */
+.fa {
+  color: rgb(15, 14, 14);
+  padding: 30px;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+/* About Section CSS */
+.about__section {
+  background-image: url("../img/grey\ image.jpg");
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  height: 800px;
+}
+
+.about__section h1 {
+  font-size: 50px;
+  padding-bottom: 60px;
+}
+
+.about__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__info img {
+  border-radius: 50%;
+}
+
+.about__info p {
+  font-size: 16px;
+  padding-left: 100px;
+  width: 600px;
+}
+
+/* Resume Section CSS */
+.resume__section {
+  background-image: url("../img/bg-img-2.jpeg");
+  background-attachment: fixed;
+  height: 900px;
+}
+
+.resume__section h1 {
+  font-size: 50px;
+}
+
+.resume__education,
+.resume__workExperience {
+  text-align: center;
+  padding: 30px 10px 10px 30px;
+  margin: 30px;
+}
+
+.resume__education--1,
+.resume__workExperience--1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Contact Section CSS */
+.contact__section {
+  background-image: url("../img/bubble\ image.jpg");
+  overflow: hidden;
+  height: 800px;
+}
+
+.contact__section h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
