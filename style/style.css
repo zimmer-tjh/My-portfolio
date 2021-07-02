@@ -72,7 +72,7 @@ section {
 
 /* Home Section CSS */
 .home__section {
-  height: 800px;
+  height: 980px;
   background-attachment: fixed;
   display: flex;
 }
@@ -109,12 +109,12 @@ section {
   background-image: url("../img/grey\ image.jpg");
   background-attachment: fixed;
   color: rgb(255, 255, 255);
-  height: 800px;
+  height: 980px;
 }
 
 .about__section h1 {
-  font-size: 50px;
-  padding-bottom: 60px;
+  font-size: 55px;
+  padding-bottom: 200px;
 }
 
 .about__info {
@@ -128,9 +128,9 @@ section {
 }
 
 .about__info p {
-  font-size: 16px;
+  font-size: 17px;
   padding-left: 100px;
-  width: 600px;
+  width: 650px;
 }
 
 /* Resume Section CSS */
@@ -138,7 +138,7 @@ section {
   background-image: url("../img/pine\ tree\ image.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 950px;
+  height: 980px;
 }
 
 .resume__section h1 {
